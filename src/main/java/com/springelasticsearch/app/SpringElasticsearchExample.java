@@ -60,7 +60,6 @@ public class SpringElasticsearchExample  implements CommandLineRunner {
     System.out.println("d2 directed : ");
     shows.forEach(x -> System.out.println(x));
 
-
     shows =  entityService.findByLanguage("telugu");
     System.out.println("Telugu movies : ");
     shows.forEach(x -> System.out.println(x));
